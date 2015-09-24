@@ -1,5 +1,9 @@
 (function($){
     $(function(){
-        $(".button-collapse").sidenav();
+        $(".button-collapse").sideNav();
     })
 })(jQuery);
+
+ $(document).ready(function(){
+      $('.slider').slider({full_width: true});
+    });
